@@ -1,0 +1,74 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    background: linear-gradient(90deg, #1a1a2e, #16213e);
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+    border-bottom: 2px solid #0f3460;
+}
+
+/* phone */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 8px;
+    }
+
+    .navbar a {
+        padding: 10px;
+        width: 100%; 
+        text-align: center;
+    }
+
+    .navbar .title {
+        margin-bottom: 10px;
+    }
+}
+
+.navbar .title {
+    font-size: 26px;
+    color: #00d9ff;
+    /* 明亮的藍色 */
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(0, 217, 255, 0.6);
+}
+
+.navbar a {
+    color: #e0e0e0;
+    text-decoration: none;
+    padding: 8px 18px;
+    font-weight: bold;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #0f3460;
+    color: #00d9ff;
+    box-shadow: 0 0 15px rgba(0, 217, 255, 0.4);
+    border: 1px solid #00d9ff;
+}
+
+.navbar .active {
+    background-color: #0f3460;
+    color: #00ff85;
+    /* 淡綠色 */
+    border: 1px solid #00ff85;
+    box-shadow: 0 0 15px rgba(0, 255, 133, 0.6);
+}
+
+.navbar.shrink {
+    padding: 6px 16px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+.home-section {
+    text-align: center;
+
+}
