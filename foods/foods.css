@@ -1,0 +1,39 @@
+.foods-section {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Grid layout for food cards */
+.dish-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: 20px; 
+}
+
+/* Individual dish card styling */
+.dish-card {
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+    text-align: left;
+}
+
+.dish-card h2 {
+    color: #16213e;
+    margin-top: 0;
+}
+
+.dish-card p {
+    color: #5a5a5a;
+}
+
+.dish-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}

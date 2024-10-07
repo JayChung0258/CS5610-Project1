@@ -8,7 +8,7 @@
 /* Contact Item Grid Layout */
 .contact-item {
     display: grid;
-    grid-template-columns: auto 1fr; /* 左側自適應，右側佔剩餘空間 */
+    grid-template-columns: auto 1fr; 
     align-items: center;
     padding: 15px;
     margin: 15px 0;
@@ -16,20 +16,18 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* 偶數和奇數背景色 */
 .contact-item:nth-child(even) {
     background-color: rgba(226, 245, 173, 0.733);
 }
 
 .contact-item:nth-child(odd) {
-    background-color: rgb(127, 189, 158);
+    background-color: rgb(159, 204, 181);
 }
 
 .contact-icon {
     margin-right: 10px;
 }
 
-/* 連結樣式 */
 .contact-item a {
     color: #00d9ff;
     text-decoration: none;
@@ -39,7 +37,6 @@
     text-decoration: underline;
 }
 
-/* 圖標樣式 */
 .linkedin-icon {
     width: 150px;  
     height: 32px;
