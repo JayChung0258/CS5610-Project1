@@ -1,0 +1,51 @@
+.contact-section {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: left;
+}
+
+/* Contact Item Grid Layout */
+.contact-item {
+    display: grid;
+    grid-template-columns: auto 1fr; /* 左側自適應，右側佔剩餘空間 */
+    align-items: center;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 4px solid #00d9ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 偶數和奇數背景色 */
+.contact-item:nth-child(even) {
+    background-color: rgba(226, 245, 173, 0.733);
+}
+
+.contact-item:nth-child(odd) {
+    background-color: rgb(127, 189, 158);
+}
+
+.contact-icon {
+    margin-right: 10px;
+}
+
+/* 連結樣式 */
+.contact-item a {
+    color: #00d9ff;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}
+
+/* 圖標樣式 */
+.linkedin-icon {
+    width: 150px;  
+    height: 32px;
+}
+
+.github-icon {
+    width: 140px;  
+    height: 50px;
+}

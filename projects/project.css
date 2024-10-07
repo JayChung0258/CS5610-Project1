@@ -1,0 +1,22 @@
+.projects-section {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.project-item {
+    background-color: #f4f4f9;
+    border-left: 4px solid #00d9ff;
+    padding: 15px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(62, 62, 148, 0.479);
+}
+
+.project-item h2 {
+    color: #16213e;
+    margin-top: 0;
+}
+
+.project-item p {
+    margin: 5px 0;
+}

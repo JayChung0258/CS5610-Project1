@@ -1,3 +1,4 @@
+
 .navbar {
     position: sticky;
     top: 0;
@@ -12,28 +13,9 @@
     border-bottom: 2px solid #0f3460;
 }
 
-/* phone */
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        padding: 8px;
-    }
-
-    .navbar a {
-        padding: 10px;
-        width: 100%; 
-        text-align: center;
-    }
-
-    .navbar .title {
-        margin-bottom: 10px;
-    }
-}
-
-.navbar .title {
+.navbar .navbar-title {
     font-size: 26px;
     color: #00d9ff;
-    /* 明亮的藍色 */
     font-weight: bold;
     text-shadow: 0 0 10px rgba(0, 217, 255, 0.6);
 }
@@ -48,6 +30,7 @@
     transition: all 0.3s ease;
 }
 
+
 .navbar a:hover {
     background-color: #0f3460;
     color: #00d9ff;
@@ -55,20 +38,39 @@
     border: 1px solid #00d9ff;
 }
 
+
 .navbar .active {
     background-color: #0f3460;
     color: #00ff85;
-    /* 淡綠色 */
     border: 1px solid #00ff85;
     box-shadow: 0 0 15px rgba(0, 255, 133, 0.6);
 }
+
 
 .navbar.shrink {
     padding: 6px 16px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
 }
 
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 8px;
+    }
+
+    .navbar a {
+        padding: 10px;
+        width: 100%; 
+        text-align: center;
+    }
+
+    .navbar .navbar-title {
+        margin-bottom: 10px;
+    }
+}
+
+
 .home-section {
     text-align: center;
-
 }

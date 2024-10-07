@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Main Content Style */
+.home-section {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: left;
+}
+
+/* About Section */
+.about-section, .education-section, .experience-section {
+    margin-bottom: 20px;
+}
+
+/* Section Headings */
+.about-section h2, .education-section h2, .experience-section h2 {
+    color: #00d9ff;
+    border-bottom: 2px solid #0f3460;
+    padding-bottom: 5px;
+}
+
+/* List Style for Experience and Education */
+.education-section ul, .experience-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.education-section li, .experience-section li {
+    margin-bottom: 10px;
+}
+
+/* Title Text */
+h1 {
+    color: #0f3460;
+    text-align: center;
+    font-size: 36px;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 16px;
+    margin: 5px 0;
+}
